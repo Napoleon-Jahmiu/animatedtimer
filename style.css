@@ -8,7 +8,13 @@ body {
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1;
-    height: 100vh
+    height: 100vh;
+    background: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 button {
@@ -16,8 +22,21 @@ button {
  display: flex;
  background: #fff;
  color: #333;
- align-items: center;
- justify-content: center;
- text-align: center;
+ display: block;
+ border-radius: 5px;
+justify-items: ;
 }
 
+.countdown {
+    position: relative;
+    padding-left: 8px;
+}
+
+.numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+
+}
