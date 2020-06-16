@@ -17,19 +17,43 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin-bottom: 4rem;
+}
 button {
- padding: 1rem;   
- display: flex;
+ padding: 15px 30px;   
+ 
  background: #fff;
- color: #333;
+ color: #333; 
  display: block;
  border-radius: 5px;
-justify-items: ;
+/* justify-items: center ; */
+margin: auto;
+cursor: pointer;
+font-size: 24px;
+letter-spacing: 2px;
+transition: 2s ease all;
+line-height: 1;
+display: flex;
+border: none;
+}
+
+button:hover {
+    background: #555; 
+    color: #fff;
+}
+
+.reset {
+    margin-top:2rem;
+
 }
 
 .countdown {
     position: relative;
-    padding-left: 8px;
+    margin-left: 8px;
+    line-height: 1.3;
+    text-indent: -999px;
+    overflow: hidden;
 }
 
 .numbers {
@@ -37,6 +61,7 @@ justify-items: ;
     top: 0;
     left: 0;
     text-align: center;
-
-
+    transition: 0.3s ease transform;
+    transform: translateY(-px);
+    text-indent: 0;
 }
