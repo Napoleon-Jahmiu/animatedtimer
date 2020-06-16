@@ -62,6 +62,6 @@ button:hover {
     left: 0;
     text-align: center;
     transition: 0.3s ease transform;
-    transform: translateY(-px);
+    transform: translateY(-24px);
     text-indent: 0;
 }
